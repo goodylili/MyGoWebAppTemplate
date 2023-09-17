@@ -21,8 +21,6 @@ time.
 First, you're going to tweak this structure for your app's use case. This template simply eliminates the overhead of
 manually initializing a project.
 
-Certainly, here's the directory explanation with clickable links for your GitHub README.md:
-
 
 1. **[cmd](./cmd)**: This directory contains the main entry point for your server application.
     - **[server](./cmd/server)**: Subdirectory for the server application.
@@ -47,7 +45,6 @@ Certainly, here's the directory explanation with clickable links for your GitHub
 6. **[static](./static)**: Contains static assets like images.
     - **[img.jpg](./static/img.jpg)**: An image file used in your application.
 
-
 Each of these subdirectories serves a specific purpose in organizing your application's code and resources. The
 structure helps keep your codebase modular and maintainable by separating concerns and functionalities into different
 directories.
@@ -58,7 +55,7 @@ You can use the `gonew` command or the bash [creator.sh](./scripts/creator.sh) s
 
 ### 🤩 Using Gonew
 
-Using `gonew` will ensure that you also get additional file and file content. Google `gonew` and check the LogRocket
+Using `gonew` will ensure that you also get additional files and file content. Google `gonew` and check the LogRocket
 blog for a tutorial I wrote on how you can use `gonew` to streamline your apps' development.
 
 
