@@ -23,6 +23,7 @@ manually initializing a project.
 
 Certainly, here's the directory explanation with clickable links for your GitHub README.md:
 
+
 1. **[cmd](./cmd)**: This directory contains the main entry point for your server application.
     - **[server](./cmd/server)**: Subdirectory for the server application.
         - **[main.go](./cmd/server/main.go)**: The main Go source code file for your server application.
@@ -46,6 +47,7 @@ Certainly, here's the directory explanation with clickable links for your GitHub
 6. **[static](./static)**: Contains static assets like images.
     - **[img.jpg](./static/img.jpg)**: An image file used in your application.
 
+
 Each of these subdirectories serves a specific purpose in organizing your application's code and resources. The
 structure helps keep your codebase modular and maintainable by separating concerns and functionalities into different
 directories.
@@ -59,7 +61,9 @@ You can use the `gonew` command or the bash [creator.sh](./scripts/creator.sh) s
 Using `gonew` will ensure that you also get additional file and file content. Google `gonew` and check the LogRocket
 blog for a tutorial I wrote on how you can use `gonew` to streamline your apps' development.
 
+
 First, Install `gonew` with this command line
+
 
 ```shell
 go install golang.org/x/tools/cmd/gonew@latest
@@ -67,11 +71,13 @@ go install golang.org/x/tools/cmd/gonew@latest
 
 Next, run this command to complete the setup with `gonew` and start building.
 
+
 ```shell
 
 gonew -dir <directory-you-want> -v github.com/Goodnessuc/MyGoWebAppTemplate <your-project-name>
 
 ```
+
 
 The command will create the exact structure of the project as is on GitHub.
 
@@ -83,6 +89,7 @@ The bash script also affords you more control over the contents of your app file
 
 Run this command in the terminal of your project's working directory to create the directory structure and files
 
+
 ```bash
 mkdir -p cmd/server config internal/handlers internal/utils scripts static docs
 
@@ -90,12 +97,15 @@ touch .gitignore LICENSE Makefile README.md Dockerfile .env.example go.mod go.su
 
 ```
 
+
 You've successfully set up your project's structure with the Bash Script.
 
 
 ## 🛠️ Technologies and Tools
 Go - The programming language used
+
 GitHub Actions - GitHub CI/CD tool
+
 Make - Build automation tool
 
 
